@@ -4,7 +4,23 @@
 
 }
 .container {
-  flex: 1;
+  display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.listContainer {
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.title {
+  margin-top: 250px;
+}
+ul {
+  list-style-type: none;
 }

@@ -18,8 +18,9 @@ export default class List extends Component {
       const { items, checked } = this.state;
       return (
         <section id='list' className='container'>
-          <div>
-          <ul className='listContainer'>
+          <h1 className='title'>Async local state handling</h1>
+          <div className='listContainer'>
+          <ul className='list'>
             {
               items.map(item => (
                 <li key={item.id}><input type='checkbox' onClick={this.checkPressed} name={item.name}/><label className='item'>{item.name}</label></li>
